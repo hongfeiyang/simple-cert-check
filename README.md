@@ -1,8 +1,8 @@
-# Assignment 2
-This repository contains example code and test scripts for Assignment 2
+# Assignment 2 Cert Check
+This repository contains code and test scripts for Assignment 2
 
-## Example Certificate Code
-certexample.c contains example code for opening a certificate file using OpenSSL, as well as extracting some values from it.
+## Certificate Code
+certexample.c contains code for opening a certificate file using OpenSSL, as well as extracting values from it.
 
 ## Test Scripts and Certificates
 Inside sample\_certs you will find a testscript.sh file. Copy the contents of sample\_certs to the directory where your certcheck program is, and then run ./testscript.sh It will call your program, passing sample_input.csv as the input file parameter, and wait for it to finish. It will then compare the output.csv with the expected output.
